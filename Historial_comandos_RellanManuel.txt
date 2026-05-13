@@ -1,0 +1,356 @@
+exit
+vagrant status
+ls
+ls - l
+ls -l
+cat README 
+cat << FIN
+linea 1
+linea 2
+linea 3
+linea 4
+FIN
+
+cat << FIN > clase3.txt
+linea 1
+linea 2
+linea 3
+linea 4
+FIN
+
+ls
+cat clase3.txt 
+cat << FIN > clase3.txt 
+linea 5
+linea 6
+FIN
+
+ls
+cat clase3.txt 
+cat << FIN >> clase3.txt 
+linea 7
+linea 8
+FIN
+
+LS
+cat clase3.txt 
+bc <<< 1+2
+man tac
+tac clase3.txt 
+man wc
+man echo
+echo "hola mundo" | wc
+echo "Hola Mundo"
+echo "Hola mundo" | wc
+cat clase3.txt  | wc -w
+man wc
+cat clase3.txt | wc -l
+tail clase3.txt 
+tail -n2 clase3.txt 
+head -n2 clase3.txt 
+cat clase3.txt 
+head clase3.txt 
+head -n1 clase3.txt 
+head -n3 clase3.txt 
+head -n6 clase3.txt 
+cat clase3.txt | tail -n1
+cat clase3.txt | head -n1
+man grep
+cat clase3.txt | head -n1 | grep 2
+cat clase3.txt | head -n1 | grep 5
+cat clase3.txt | grep 5
+cat clase3.txt | head -n3 | grep linea 5
+cat clase3.txt | head -n3 | grep "linea 5"
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo 
+nproc
+cd
+ls
+cd carpeta_compartida/
+cs
+cd
+ls
+cd
+ls
+proc/
+vagrant --help
+--help
+exit
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+sudo apt install git
+git --version
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:manuelrellan/TP_AySO.-MANUEL-VALENTIN-RELLAN.git
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN/
+pwd
+ls -l
+passwd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+man grep
+grep -i Ubuntu /etc/passwd
+whoami
+mkdir datos_usuario.txt
+echo Vagrant=$(whoami) >> datos_usuario.txt
+git add .
+git config --global user.email manuelrellan07@
+git config --global user.name manuelrellan
+git config --global user.name "manuelrellan"
+git commit -m add datos_usuario.txt
+git status
+pwd
+ls -l
+[200~cat /etc/passwd
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+man passwd
+man man
+man etc
+grep Ubuntu passwd
+Ubuntu /etc/passwd
+cat datos_usuario.txt/
+cat >> datos_usuario.txt/
+cat > datos_usuario.txt/
+cat > datos_usuario.txt
+man del
+help
+rmdir datos_usuario.txt/
+ls -l
+echo ubuntu > datos_usuario.txt
+ls -l
+grep -i Ubuntu /etc/passwd
+vagrant halt
+exit
+cd repogit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN/
+grep -i ubuntu /etc/passwd
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}'
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt 
+grep -i ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+cat datos_usuario.txt 
+whoami
+echo "Vagrant=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+echo "x" > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git config --global user.email "manuelrellan07@gmai.com"
+git config --global user.name "manuelrellan"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git restore --staged .
+rm datos_usuario.txt
+cd
+cd Tp
+cd repogit/
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN/
+rm -rf repogit
+ls -a
+git status
+exit
+git clone git@github.com:manuelrellan/TP_AySO.-MANUEL-VALENTIN-RELLAN.git
+cp README
+git status
+git clone git@github.com:manuelrellan/TP_AySO.-MANUEL-VALENTIN-RELLAN-1.git
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:manuelrellan/TP_AySO.-MANUEL-VALENTIN-RELLAN-1.git
+cd TP_AySO.-MANUEL-VALENTIN-RELLANpwd
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+ls -l
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep man
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+man grep
+grep -i Ubuntu /etc/passwd
+man awk
+awk Ubuntu
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+grep -i Ubuntu /etc/passwd
+grep -i Ubuntu /etc/shadow
+sudo grep -i Ubuntu /etc/shadow
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+grep -i ubuntu /etc/passwd | cut -d: -f2 > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+whoami
+cat datos_usuario.txt 
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+rm datos_usuario.txt 
+grep -i ubuntu /etc/passwd | cut -d: -f2 > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git config --global user.email "manuelrellan07@gmail.com"
+git config --global user.name "manuelrellan"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+cpu info
+sudo cpu info
+sudo cpuinfo
+cpuinfo
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo 
+cat cpuinfo | grep -i core | head -n1
+cat cpuinfo | grep -i core 
+cat cpuinfo | grep -i core | tail -n1
+cat cpuinfo | grep -i modelname | tail -n1
+man grep
+cat cpuinfo | grep -i model name 
+cat cpuinfo | grep -i model name  | tail -n1
+cat cpuinfo | awk -i model name | tail -n1
+cat cpuinfo | grep -i core | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1 >> info_pc.txt
+mkdir info_pc.txt
+sudo mkdir info_pc.txt
+cat /proc/cpuinfo | grep "model name" | head -n1 > info_pc.txt
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cd
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt 
+git commit -m “feat: Añadiendo información de CPU” info_pc.txt
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+git push
+cd
+TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt 
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git push
+man grep
+grep -v "nologin" /etc/passwd | sort -t: -k7 | head -n10 > lista_ordenada
+cat lista_ordenada 
+grep -v "nologin" /etc/passwd | sort -t: -k7
+git add .
+git commit -m “ADD: Listado de usuarios ordenada”
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+history
+cat << EOF >> README.md
+Alumno: Manuel Valentin Rellan
+División: 116
+Turno: Mañana
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs: agregando información del alumno al README"
+git push
+cat << EOF > README.md
+# TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+
+Alumno: Manuel Valentin Rellan
+División: 116
+Turno: Mañana
+EOF
+
+git add .
+git commit -m "docs: corrigiendo formato del README"
+git push
+man mkdir
+cd /home/vagrant
+sudo apt install tree
+sudo snap install tree
+tree TP1
+tree
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree TP1
+cat << EOF > script_dir.sh
+#!/bin/bash
+
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+EOF
+
+chmod +x script_dir.sh
+./script_dir.sh
+tree TP1
+git add .
+cd 
+TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cd /home
+cd /home/vagrant
+git add .
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+./script_dir.sh
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+mv ~/script_dir.sh ~TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+ls
+./script_dir.sh
+cd /home/vagrant
+ls
+./script_dir.sh
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+cat << EOF > script_dir.sh
+#!/bin/bash
+
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+EOF
+
+LS
+ls
+chmod +x script_dir.sh
+./script_dir.sh
+tree TP1
+ls -R TP1
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+rm "-TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+
+ls
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+ls
+rm \~TP_AySO.-MANUEL-VALENTIN-RELLAN-1 
+ls
+git status
+git add .
+git commit -m "fix: eliminando archivo temporal"
+git push
+history -a
