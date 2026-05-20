@@ -354,3 +354,45 @@ git add .
 git commit -m "fix: eliminando archivo temporal"
 git push
 history -a
+cp ~/.bash_history Historial_comandos_RellanManuel.txt
+ls
+cat Historial_comandos_RellanManuel.txt 
+git add .
+git commit -m "docs: agregando historial de comandos"
+git push
+./script_dir.sh
+ls
+git add .
+git commit -m "feat: agregando estructura TP1"
+git push
+mkdir -p TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+ls
+cat TP1
+git add .
+git commit -m "feat: agregando estructura TP1"
+git push
+cat TP1
+cd TP1
+ls
+cat arquitectura/
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+cd ~
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+cat Historial_comandos_RellanManuel.txt 
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+grep -i ubuntu /etc/passwd | cut -d: -f2 > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git push
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+exit
+cd TP_AySO.-MANUEL-VALENTIN-RELLAN-1
+history
+history -a
+git add .
+git commit -m "ADD: actualizando el historial de comandos"
+git push
